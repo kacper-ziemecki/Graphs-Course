@@ -1,0 +1,28 @@
+{
+	"configurations": [
+		{
+			"name": "WIN32",
+			"includePath": ["C:\\MinGW\\include"],
+			"defines": ["_DEBUG", "PART_TM4C123GH6PM"],
+			"compilerPath": "C:\\MinGW\\bin\\g++.exe",
+			"cStandard": "c99",
+			"cppStandard": "gnu++17",
+			"intelliSenseMode": "gcc-x86",
+			"configurationProvider": "ms-vscode.cmake-tools"
+		},
+		{
+			"name": "LINUX",
+			"includePath": [
+				"${workspaceFolder}/**",
+				"/home/jshankar/ti/TivaWare_C_Series-2.2.0.295"
+			],
+			"defines": ["_DEBUG", "PART_TM4C123GH6PM"],
+			"compilerPath": "/opt/toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc",
+			"cStandard": "c99",
+			"cppStandard": "gnu++17",
+			"intelliSenseMode": "gcc-arm",
+			"configurationProvider": "ms-vscode.cmake-tools"
+		}
+	],
+	"version": 4
+}
